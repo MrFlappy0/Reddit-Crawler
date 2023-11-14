@@ -18,7 +18,7 @@ else:
         os.mkdir(os.path.join(download_dir, "data"))
 
 # Télécharger le fichier Python à partir de GitHub
-url = "https://raw.githubusercontent.com/MrFlappy0/Youtube-downloader/main/download.py"
+url = "https://raw.githubusercontent.com/MrFlappy0/Reddit-Crawler/blob/main/Reddit%20scrapper.py"
 filename = os.path.join(download_dir, "download.py")
 urllib.request.urlretrieve(url, filename)
 
