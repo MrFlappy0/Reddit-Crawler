@@ -1,4 +1,8 @@
-# Reddit Image Scraper
+# Reddit Image Scraper   
+
+## language 
+
+# [Fr](https://github.com/MrFlappy0/Reddit-Crawler/blob/main/readme/README%20FR.md) / new language soon
 
 ## Description
 
@@ -41,7 +45,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for more 
 
 ## Author
 
-MrFlappy0 (Discord: mrflappy0)
+MrFlappy0 (Discord: [mrflappy0](https://discord.com/users/mrflappy0))
 
 ## Acknowledgements
 
