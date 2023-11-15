@@ -1,32 +1,48 @@
-# Reddit Media Downloader
-Reddit Crawler
+# Reddit Image Scraper
 
-This Python program lets you explore and download multimedia content (images and videos) from a Reddit subreddit of your choice. It uses the PRAW library to interact with the Reddit API and can be useful for collecting multimedia files for a variety of purposes.
+## Description
 
-How to use it
-Set up your Reddit API credentials:
+Reddit Image Scraper is a Python script that allows you to download images from Reddit posts. It is capable of downloading images from external links such as Imgur.
 
-Before you can use this program, you need to set up your Reddit API credentials. Follow the steps below:
+## Features
 
-Create a Reddit application: Go to the Reddit application preferences page and create a new application.
-Obtain client_id, client_secret and user_agent.
-Save this information, as you'll be prompted for it by the program. 
+- Downloads images from Reddit posts.
+- Supports external links like Imgur.
+- Handles different types of image formats (JPEG, PNG, etc.).
+- Error handling for invalid URLs or inaccessible content.
 
-To install the program, simply run the "Setup Reddit Crowler" script, which will install all the necessary modules and a "Reddit Crowler" folder in the Telecharger of the file explorer containing everything (programs, etc.). 
-Then open the program installed in the Reddit Folder folder in your downloader, enter your api and you'll have access to the entire program and future updates! To access the program, follow these steps: 
-Enter the name of the subreddit you wish to explore.
-Enter the number of posts to download.
-Download media :
+## How it Works
 
-The program will download the multimedia content (images and videos) of the specified subreddit up to the specified limit.
-Downloaded files will be saved in the Downloads/Reddit 
-Crawler/downloads directory.
+The script works by making HTTP requests to the specified Reddit post URLs. It parses the HTML response to find the image links and then downloads the images using the `requests` library.
 
-Note
-This program is able to download multimedia files from messages that refer to common image and video formats (e.g. .jpg, .png, .gif, .mp4).
-It does not take into account plain text messages and non-multimedia links.
-Invalid links or media formats are flagged.
-Feel free to use and modify this program to suit your needs. Happy browsing!
+## Prerequisites
 
+- Python 3.6 or higher
+- Python `requests` library
 
+## Installation
 
+1. Ensure Python 3.6 or higher is installed on your machine.
+2. Clone this repository to your local machine using `git clone https://github.com/yourusername/reddit-image-scraper.git`.
+3. Install the `requests` library using pip: `pip install requests`.
+
+## Usage
+
+1. Open a terminal and navigate to the directory where you cloned the repository.
+2. Run the Python script `reddit_scraper.py` with the URL of the Reddit post as an argument. For example: `python reddit_scraper.py https://www.reddit.com/r/examplepost`.
+
+## Contributing
+
+Contributions are welcome! To contribute to this project, please fork this repository, make your changes, and then open a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the `LICENSE` file for more details.
+
+## Author
+
+MrFlappy0 (Discord: mrflappy0)
+
+## Acknowledgements
+
+Thank you for using Reddit Image Scraper!
