@@ -1,5 +1,6 @@
 # Reddit Media Downloader
 Reddit Crawler
+![image](https://github.com/MrFlappy0/Reddit-Crawler/assets/135755037/d842e6ac-7809-4865-9a0f-cd7ec875d013)
 
 
 This Python program lets you explore and download multimedia content (images and videos) from a Reddit subreddit of your choice. It uses the PRAW library to interact with the Reddit API and can be useful for collecting multimedia files for a variety of purposes.
