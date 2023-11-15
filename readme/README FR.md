@@ -41,7 +41,7 @@ Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
 
 ## Auteur
 
-MrFlappy0 (Discord: mrflappy0)
+MrFlappy0 (Discord: [mrflappy0](https://discord.com/users/mrflappy0)))
 
 ## Remerciements
 
