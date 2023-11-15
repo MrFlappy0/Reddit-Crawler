@@ -2,7 +2,7 @@
 
 ## language 
 
-# [Fr](https://github.com/MrFlappy0/Reddit-Crawler/blob/main/readme/README%20FR.md) / new language soon
+# For [Fr](https://github.com/MrFlappy0/Reddit-Crawler/blob/main/readme/README%20FR.md)
 
 ## Description
 
