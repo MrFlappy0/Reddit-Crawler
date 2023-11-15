@@ -1,3 +1,17 @@
+import subprocess
+
+modules_to_install = ['praw', 'requests', 'colorama', 'rich', 'inquirer', 'Pillow', 'tqdm']
+
+def check_and_install_modules():
+    for module in modules_to_install:
+        try:
+            __import__(module)
+        except ImportError:
+            subprocess.call(['pip', 'install', module])
+
+check_and_install_modules()
+
+
 import os
 import praw
 import time
@@ -9,16 +23,6 @@ import inquirer
 
 
 console = Console()
-
-import sys
-import traceback
-
-def handle_exception(exc_type, exc_value, exc_traceback):
-    with open("errors.txt", "a") as f:
-        f.write("\n")
-        f.write("".join(traceback.format_exception(exc_type, exc_value, exc_traceback)))
-
-sys.excepthook = handle_exception
 
 def get_credentials():
 
