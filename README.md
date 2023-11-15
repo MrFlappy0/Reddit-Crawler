@@ -45,4 +45,4 @@ MrFlappy0 (Discord: mrflappy0)
 
 ## Acknowledgements
 
-Thank you for using Reddit Image Scraper!
+Thank you for using Reddit Image/info Scraper!
